@@ -1,0 +1,7 @@
+.bg-cover {
+  background-image: url("./src/assets/images/hero-image.png");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center top 50px;
+  transform: scale(1.25);
+}
