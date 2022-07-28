@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg position-absolute w-100 bg-none justify-content-between">
+    <nav className="navbar navbar-expand-lg position-absolute w-100 bg-none">
       <a className="navbar-brand" href="#">
         <Image
           src={logo}
@@ -15,7 +15,7 @@ export default function Navbar() {
         />
       </a>
       <button
-        class="navbar-toggler"
+        class="navbar-toggler pr-3"
         type="button"
         data-toggle="collapse"
         data-target="#navbarText"
