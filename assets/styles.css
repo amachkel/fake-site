@@ -1,3 +1,9 @@
+:root {
+  --redish: #ee2d1c;
+  --blackish: #4c4c51;
+  --blueish: #889393;
+}
+
 .bg-cover {
   background-image: url("./images/hero-image.png");
   height: 80vh;
@@ -6,6 +12,13 @@
   background-size: cover;
   z-index: -1;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7));
+}
+
+.jumbotron.bg-cover.jumbotron-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar {
@@ -33,7 +46,9 @@ button.navbar-toggler,
 }
 
 .footer-item .footer-link {
-  color: #88939e;
+  color: var(--blueish);
+  font-size: 22px;
+  line-height: 28px;
   text-decoration: none;
 }
 
@@ -46,4 +61,26 @@ ul.footer-nav {
 
 .nav-item .nav-link {
   color: white;
+}
+
+.header {
+  font-size: 48px;
+  line-height: 48px;
+  color: #fff;
+  padding: 22px;
+}
+
+p.lead {
+  font-size: 22px;
+  line-height: 28px;
+  color: #fff;
+  padding-bottom: 22px;
+}
+
+.lead .custom-btn {
+  background-color: var(--redish);
+  min-height: 55px;
+  font-size: 22px;
+  border-radius: 50px;
+  color: #fff;
 }

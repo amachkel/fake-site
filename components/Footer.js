@@ -4,7 +4,10 @@ import logo from "../assets/images/logo.png";
 
 export default function Footer() {
   return (
-    <footer className="card-footer">
+    <footer
+      className="card-footer pt-3"
+      style={{ borderTop: "1px solid #e8e8e8" }}
+    >
       <a className="footer-brand" href="#">
         <Image src={logo} width="60" alt="Fox logo" />
       </a>
