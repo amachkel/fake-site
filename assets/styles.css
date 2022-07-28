@@ -43,12 +43,12 @@ button.navbar-toggler,
 .nav-item,
 .footer-item {
   padding: 0 1rem;
+  font-size: 22px;
+  line-height: 28px;
 }
 
 .footer-item .footer-link {
   color: var(--blueish);
-  font-size: 22px;
-  line-height: 28px;
   text-decoration: none;
 }
 
@@ -83,4 +83,9 @@ p.lead {
   font-size: 22px;
   border-radius: 50px;
   color: #fff;
+}
+
+/* Video Card */
+.card-text {
+  overflow: none;
 }
