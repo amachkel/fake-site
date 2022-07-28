@@ -15,7 +15,7 @@ export default function Navbar() {
         />
       </a>
       <button
-        class="navbar-toggler pr-3"
+        className="navbar-toggler pr-3"
         type="button"
         data-toggle="collapse"
         data-target="#navbarText"
@@ -23,10 +23,10 @@ export default function Navbar() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
       <div
-        class="collapse navbar-collapse justify-content-end "
+        className="collapse navbar-collapse justify-content-end "
         id="navbarNavDropdown"
       >
         <ul className="navbar-nav">

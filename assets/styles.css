@@ -86,6 +86,45 @@ p.lead {
 }
 
 /* Video Card */
+
+.video {
+  height: 100vh;
+  background-color: var(--redish);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+}
+
+.video-button {
+  background-image: url("./images/playbtn.png");
+  background-color: none;
+  min-height: 200px;
+  min-width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* .vimeo {
+  display: none;
+} */
+
+.card {
+  width: 90%;
+  max-height: 500px;
+  margin: 40px;
+  overflow: auto;
+}
+
+.card-title {
+  font-size: 36px;
+  line-height: 36px;
+  color: var(--blackish);
+  padding: 22px 0;
+}
+
 .card-text {
-  overflow: none;
+  color: var(--blackish);
+
+  padding: 22px 0;
 }
