@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Homepage() {
-  return <div className="jumbotron bg-cover jumbotron-fluid"></div>;
+  return (
+    <div className="jumbo-wrapper">
+      <div className="jumbotron bg-cover jumbotron-fluid"></div>
+    </div>
+  );
 }
