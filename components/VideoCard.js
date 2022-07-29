@@ -25,7 +25,7 @@ export default function VideoCard() {
           <div className="col-sm-12 col-md-6">
             <div className="card border-0">
               {checked ? (
-                <div className="video card-body">
+                <div className="video card-body active">
                   <button
                     className="video-button btn"
                     onClick={() => revealVideo()}
@@ -34,7 +34,12 @@ export default function VideoCard() {
                   <Vimeo className="vimeo d-block" video={video.url} />
                 </div>
               ) : (
-                <div className="video card-body">
+                <div
+                  className="video card-body"
+                  style={{
+                    backgroundImage: `url(${video.thumbnail_large})`,
+                  }}
+                >
                   <button
                     className="video-button btn"
                     onClick={() => revealVideo()}
