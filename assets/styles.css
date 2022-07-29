@@ -94,9 +94,6 @@ p.lead {
   justify-content: center;
 }
 
-.video .card-body .active {
-}
-
 .video.active .video-button,
 .video.active::after {
   display: none;
@@ -116,8 +113,9 @@ p.lead {
 .video-button {
   background-image: url("./images/playbtn.png");
   background-color: none;
-  min-height: 200px;
-  min-width: 200px;
+  height: 200px;
+  width: 200px;
+  margin: auto;
   position: relative;
   z-index: 101;
   background-repeat: no-repeat;
