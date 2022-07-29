@@ -4,6 +4,10 @@
   --blueish: #889393;
 }
 
+.section {
+  margin-bottom: 40px;
+}
+
 .bg-cover {
   background-image: url("./images/hero-image.png");
   height: 80vh;
@@ -19,6 +23,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.section .row {
+  max-width: 100%;
 }
 
 .navbar {
@@ -161,9 +169,12 @@ p.lead {
 }
 
 .card-text {
-  color: var(--blackish);
+  color: var(--blueish);
   font-size: 22px;
-  padding: 22px 0;
+}
+
+.fake-site-links-container {
+  margin-left: 5rem;
 }
 
 .fake-link-header {
@@ -187,4 +198,7 @@ ul.fake-link-list {
 
 .fake-link:hover {
   color: var(--blackish);
+}
+
+@media only screen and (max-width: 770px) {
 }

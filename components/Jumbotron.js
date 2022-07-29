@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Jumbotron() {
   return (
-    <div className="jumbo-wrapper">
+    <div className="section jumbo-wrapper">
       <div className="jumbotron bg-cover jumbotron-fluid">
         <div className="container text-center">
           <h1 className="display-4 header">The World's greatest fake site</h1>

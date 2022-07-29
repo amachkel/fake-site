@@ -2,7 +2,7 @@ import React from "react";
 
 export default function TextSection() {
   return (
-    <div className="col-sm-12">
+    <div className="section col-sm-12">
       <div className="card border-0">
         <div className="card-body">
           <h5 className="card-title" style={{ textAlign: "center" }}>

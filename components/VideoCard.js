@@ -10,7 +10,7 @@ export default function VideoCard(props) {
   };
 
   return (
-    <div>
+    <div className="section">
       <div key={props.video.id} className="row">
         <div className="col-sm-12 col-md-6">
           <div className="card border-0">

@@ -2,9 +2,9 @@ import React from "react";
 
 export default function FakesiteLinks() {
   return (
-    <div className="container">
+    <div className="section text-md-left fake-site-links-container">
       <div className="row">
-        <div className="col-2">
+        <div className="col-sm-2 mx-auto">
           <p className="fake-link-header">Fakesite</p>
           <ul className="fake-link-list">
             <li>
@@ -29,7 +29,7 @@ export default function FakesiteLinks() {
             </li>
           </ul>
         </div>
-        <div className="col-2">
+        <div className="col-sm-10 mx-auto">
           <p className="fake-link-header">Account</p>
           <ul className="fake-link-list">
             <li>
