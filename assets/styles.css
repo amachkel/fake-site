@@ -52,6 +52,11 @@ button.navbar-toggler,
   text-decoration: none;
 }
 
+.footer-item .footer-link:hover {
+  color: var(--blackish);
+  text-decoration: none;
+}
+
 ul.footer-nav {
   list-style-type: none; /* Remove bullets */
   display: flex;
@@ -61,6 +66,10 @@ ul.footer-nav {
 
 .nav-item .nav-link {
   color: white;
+}
+
+.nav-item .nav-link:hover {
+  color: var(--blackish);
 }
 
 .header {
@@ -153,6 +162,29 @@ p.lead {
 
 .card-text {
   color: var(--blackish);
-
+  font-size: 22px;
   padding: 22px 0;
+}
+
+.fake-link-header {
+  color: var(--redish);
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+ul.fake-link-list {
+  list-style-type: none; /* Remove bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.fake-link {
+  text-decoration: none;
+  color: var(--blueish);
+  font-size: 22px;
+}
+
+.fake-link:hover {
+  color: var(--blackish);
 }
