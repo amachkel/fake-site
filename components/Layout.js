@@ -7,7 +7,7 @@ import TextSection from "./TextSection";
 import FakesiteLinks from "./FakesiteLinks";
 import Jumbotron from "./Jumbotron";
 
-export default function Layout({ children }) {
+export default function Layout() {
   return (
     <div className="content">
       <Navbar />

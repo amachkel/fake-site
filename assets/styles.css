@@ -4,6 +4,15 @@
   --blueish: #889393;
 }
 
+@font-face {
+  font-family: "sourceSansPro";
+  src: url("./fonts/SourceSansPro-Regular.otf");
+}
+
+* {
+  font-family: "sourceSansPro", sans-serif;
+}
+
 .section {
   margin-bottom: 40px;
 }
