@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import videos from "../videos.json";
 import Vimeo from "@u-wave/react-vimeo";
+import parse from "html-react-parser";
 
 export default function VideoCard() {
   const [checked, setChecked] = useState(false);
@@ -17,7 +18,7 @@ export default function VideoCard() {
             <div className="card border-0">
               <div className="card-body">
                 <h5 className="card-title">{video.title}</h5>
-                <p className="card-text">{video.description}</p>
+                <p className="card-text">{parse(video.description)}</p>
               </div>
             </div>
           </div>
