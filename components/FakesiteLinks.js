@@ -2,7 +2,10 @@ import React from "react";
 
 export default function FakesiteLinks() {
   return (
-    <div className="section text-md-left fake-site-links-container">
+    <div
+      id="link-section"
+      className="section text-md-left fake-site-links-container"
+    >
       <div className="row">
         <div className="col-sm-2 mx-auto">
           <p className="fake-link-header">Fakesite</p>

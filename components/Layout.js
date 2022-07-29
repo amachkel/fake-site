@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar";
+import NavigationBar from "./Navbar";
 import Footer from "./Footer";
 import videos from "../videos.json";
 import VideoCard from "./VideoCard";
@@ -10,7 +10,7 @@ import Jumbotron from "./Jumbotron";
 export default function Layout() {
   return (
     <div className="content">
-      <Navbar />
+      <NavigationBar />
       <Jumbotron />
       {videos.map((video) => (
         <VideoCard key={video.id} video={video} />

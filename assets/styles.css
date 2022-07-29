@@ -17,6 +17,12 @@
   margin-bottom: 40px;
 }
 
+.section .row {
+  max-width: 100%;
+}
+
+/* jumbotron */
+
 .bg-cover {
   background-image: url("./images/hero-image.png");
   height: 80vh;
@@ -34,15 +40,12 @@
   align-items: center;
 }
 
-.section .row {
-  max-width: 100%;
-}
+/* navbar and footer */
 
 .navbar {
   z-index: 1;
 }
 
-button.navbar-toggler,
 .navbar-brand,
 .card-footer {
   margin: 1rem 5rem;
@@ -111,7 +114,11 @@ p.lead {
   color: #fff;
 }
 
-/* Video Card */
+.lead .custom-btn:hover {
+  background-color: var(--blackish);
+}
+
+/* Video Cards */
 
 .video {
   height: 100vh;
@@ -182,6 +189,8 @@ p.lead {
   font-size: 22px;
 }
 
+/* Fakesite Links */
+
 .fake-site-links-container {
   margin-left: 5rem;
 }
@@ -207,7 +216,4 @@ ul.fake-link-list {
 
 .fake-link:hover {
   color: var(--blackish);
-}
-
-@media only screen and (max-width: 770px) {
 }
