@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Vimeo from "@u-wave/react-vimeo";
 import parse from "html-react-parser";
+import { normalizeRepeatedSlashes } from "next/dist/shared/lib/utils";
 
 export default function VideoCard(props) {
   const [checked, setChecked] = useState(false);
@@ -37,6 +38,8 @@ export default function VideoCard(props) {
                 className="video card-body"
                 style={{
                   backgroundImage: `url(${props.video.thumbnail_large})`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
                 }}
               >
                 <button
