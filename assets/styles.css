@@ -46,8 +46,14 @@
   z-index: 1;
 }
 
-.color-nav {
-  background-color: rgba(225, 225, 225, 0);
+.navbar {
+  background-color: transparent;
+  transition: 1000ms;
+}
+
+.navbar.colorChange {
+  background-color: var(--blueish);
+  transition: 1000ms;
 }
 
 .navbar-brand,
