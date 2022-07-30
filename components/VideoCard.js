@@ -8,7 +8,7 @@ export default function VideoCard(props) {
   const revealVideo = () => {
     !checked ? setChecked(true) : setChecked(false);
   };
-
+  let video = props.video;
   return (
     <div className="section">
       <div key={props.video.id} className="row">

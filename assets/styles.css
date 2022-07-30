@@ -46,6 +46,10 @@
   z-index: 1;
 }
 
+.color-nav {
+  background-color: rgba(225, 225, 225, 0);
+}
+
 .navbar-brand,
 .card-footer {
   margin: 1rem 5rem;
