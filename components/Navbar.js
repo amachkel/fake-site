@@ -7,7 +7,7 @@ import { Nav, Navbar, Container } from "react-bootstrap";
 export default function NavigationBar() {
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () => {
-    if (window.scrollY >= 500) {
+    if (window.scrollY >= 600) {
       setColorchange(true);
     } else {
       setColorchange(false);
@@ -34,13 +34,13 @@ export default function NavigationBar() {
         <Navbar.Collapse id="navbarScroll">
           <Nav className="ms-auto" style={{ maxHeight: "200px" }} navbarScroll>
             <Navbar.Text className="nav-item">
-              <Nav.Link className="nav-link" href="#action1">
-                Home
+              <Nav.Link className="nav-link" href="#link-section">
+                Account
               </Nav.Link>
             </Navbar.Text>
             <Navbar.Text className="nav-item">
-              <Nav.Link className="nav-link" href="#action2">
-                Link
+              <Nav.Link className="nav-link" href="#link-section">
+                Help
               </Nav.Link>
             </Navbar.Text>
           </Nav>

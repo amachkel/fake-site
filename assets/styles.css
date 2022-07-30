@@ -1,7 +1,7 @@
 :root {
   --redish: #ee2d1c;
   --blackish: #4c4c51;
-  --blueish: #889393;
+  --blueish: rgb(136, 147, 147);
 }
 
 @font-face {
@@ -48,12 +48,15 @@
 
 .navbar {
   background-color: transparent;
-  transition: 1000ms;
+  transition: 500ms;
 }
 
 .navbar.colorChange {
-  background-color: var(--blueish);
-  transition: 1000ms;
+  background-color: rgba(136, 147, 147, 0.9);
+  transition: 500ms;
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
 }
 
 .navbar-brand,
@@ -96,6 +99,7 @@ ul.footer-nav {
 
 .nav-item .nav-link {
   color: white;
+  margin-right: 3rem;
 }
 
 .nav-item .nav-link:hover {

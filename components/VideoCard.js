@@ -40,6 +40,7 @@ export default function VideoCard(props) {
                   backgroundImage: `url(${props.video.thumbnail_large})`,
                   backgroundRepeat: "no-repeat",
                   backgroundSize: "cover",
+                  backgroundPosition: "center",
                 }}
               >
                 <button
