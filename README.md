@@ -1,31 +1,48 @@
 # Fake Site
+A single page application built using a mockup and style guide as reference. This app was built with full responsiveness in mind. The video section pulls its data from the Vimeo videos API and is rendered dynamically.
 
-Thank you for taking the time to take part in this coding assessment. Instructions are listed below, and if you have any questions, please email dan@firststreet.org directly. Please remember to be mindful of attention to detail with your build and the mockup provided.
+## Table Of Contents 
+ - [description](#fake-site)
+ - [usage](#usage)
+ - [mockups](#mockups)
+ - [technologies used](#technologies-used)
+ - [future directions](#future-directions)
+ - [license](#license)
 
-1. Build a fake website using `mockup.png` as your guide. The style guide is located in `StyleGuide.png`.
-2. Use Next.JS, React and components as best as you can.
-3. No mobile mockup is provided, how do you think this mobile site should look and function like?
-4. Imagine a secondary page, how would you think that looks like? How would you route pages from point A to point B?
-5. When you are done, please upload your code on GitHub and email the repository link to dan@firststreet.org
 
-Every other assets are located in the `assets` folder and fonts are located in `fonts`.
+ ## Usage
+ 
 
-## Video Section
+https://user-images.githubusercontent.com/84882398/181996573-c439c398-a91f-4efe-8505-7824ec7dac33.mp4
 
-For the video section of the site, use the API source. You do not have to build a video player, but you can open the link to Vimeo itself.
 
-For every item in this json file, render the video section. Use the thumbnail that is provided in the API response if you can.
+  ### [Visit the deployed app here!](https://tech-blog-amkh.herokuapp.com)
+ 
+## Mockups
 
-Vimeo Videos api (or use videos.json in the zip):
+![mockup](https://user-images.githubusercontent.com/84882398/181996089-9d23cc12-34d2-4680-a365-5dd44764bad5.png)
+------
+![StyleGuide](https://user-images.githubusercontent.com/84882398/181996095-43bac129-dc66-4882-bbfc-4ab9903946d8.png)
+------
 
-```
-https://vimeo.com/api/v2/channel/staffpicks/videos.json
-```
+## Technologies Used
 
-### Remember: Attention to Detail!
+* ReactJS
+* React-Bootstrap
+* NextJS
+* Third Party API: Vimeo Videos
 
-Prior to submitting, please validate all use cases:
+## Future Directions
 
-- Does the site work and meet the requirements listed above?
-- Is the website responsive?
-- If this was a real website, would you be happy using it?
+- Adding a secondary page! NextJS makes routing extremely convenient, one would only need to add the new page to the 'pages' directory and it is automatically available as a route. The benefit to writing this with components is it adds a level of scalability for future development.
+- Cleaning up CSS(and utilizing React-Bootstrap components more)
+- Creating authentication/login capabilities. This would involve setting up a server side with a database. It would also be fun to make a user's and admin's profile page!
+
+## License
+
+ This application is covererd under MIT. Click the badge to learn more. 
+
+ [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ 
+ ### Contact Me
+ [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/amachkel)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/alex-harkins/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codepen.svg' alt='codepen' height='40'>](https://codepen.io/amachkel)  
