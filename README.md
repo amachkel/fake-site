@@ -16,7 +16,7 @@ A single page application built using a mockup and style guide as reference. Thi
 https://user-images.githubusercontent.com/84882398/181996573-c439c398-a91f-4efe-8505-7824ec7dac33.mp4
 
 
-  ### [Visit the deployed app here!](https://tech-blog-amkh.herokuapp.com)
+  ### [Visit the deployed app here!](https://fake-site-iota.vercel.app/)
  
 ## Mockups
 
