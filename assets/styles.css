@@ -174,10 +174,10 @@ p.lead {
   width: 90%;
   max-height: 400px;
   margin: 40px;
-  overflow: auto;
+  text-overflow: ellipsis;
 }
 
-.card::-webkit-scrollbar {
+/* .card::-webkit-scrollbar {
   width: 10px;
 }
 
@@ -189,7 +189,7 @@ p.lead {
 .card::-webkit-scrollbar-thumb {
   background-color: var(--blueish);
   border-radius: 8px;
-}
+} */
 
 .card-title {
   font-size: 36px;
@@ -201,6 +201,7 @@ p.lead {
 .card-text {
   color: var(--blueish);
   font-size: 22px;
+  text-overflow: ellipsis;
 }
 
 /* Fakesite Links */
